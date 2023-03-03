@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/7b14c62798.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <script>
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+</head>
+
+<body>
+  <navbar id="navbar">
+    <div class="nav-div">
+    <i class="fa-solid fa-user"></i>
+    <h1>Cryptic_X</h1></div>
+    <nav>
+      <ul>
+        <a href="#Intro"><li>Introduction</li></a>
+        <a href="#parallx"><li>About</li></a>
+        <a href="#contacts"><li>Three</li></a>
+      </ul>
+    </nav>
+  </navbar>
+  <div class="wrapper">
+  <div id="Intro">
+    <img src="https://images.unsplash.com/photo-1653219305693-28ad4baf623a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="background">
+    <img src="https://cdn.imgpaste.net/2022/10/10/KemO9N.png" class="foreground">
+    <h1 id="Title" class="slide">Hello, You are </h1>
+    <p id="title-p">I am a developer.  </p>
+    <p style="font-size: 60px; margin-top: 40px;">↓</p>
+  </div>
+  
+  <div id="parallx"></div>
+      <div id="About">
+        <div id="abt-left">
+          <h1>About Me!!</h1>
+          <img id="abt-img" src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Profile picture image">
+          <p class="img-caption">Pan rip</p>
+          <div id="contacts">
+            <h2>Contact me!!</h2>
+            <div id="contacts-icon">
+              <i class="fa-brands fa-discord popup" onmouseenter="myFunction()">
+                <span class="popuptext" id="myPopup">Discord!</span>
+              </i>
+              <i class="fa-brands fa-instagram popup2" onmouseenter="myFunction()">
+                <span class="popuptext2" id="myPopup2">Instagram</span>
+              </i>
+              <i class="fa-brands fa-facebook popup3" onmouseenter="myFunction()">
+                <span class="popuptext3" id="myPopup3">Facebook</span>
+              </i>
+              <i class="fa-brands fa-twitter popup4" onmouseenter="myFunction()">
+                <span class="popuptext4" id="myPopup4">Twitter</span>
+              </i>
+            </div>
+          </div>
+        </div>
+        <div id="abt-right">
+          <div id="quote-div"><i class="fa-sharp fa-solid fa-quote-left"></i><p>The way I see it, if you want the rainbow, you gotta put up with the rain.<div id="quote-pers"> -- Anonymous</div></p><i class="fa-sharp fa-solid fa-quote-right"></i></div>
+          <!-- <div id="quote-div"><p><i class="fa-sharp fa-solid fa-quote-left"></i>Umayava mu shindeiru.<div id="quote-pers"> -- Rohan Philip</div><i class="fa-sharp fa-solid fa-quote-right"></i></p></div> -->
+          
+        </div>
+      </div>
+      </div>
+</body>
+
+</html>
